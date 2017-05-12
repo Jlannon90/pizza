@@ -1,5 +1,6 @@
 body {
   background-image: url(https://static.vecteezy.com/system/resources/previews/000/141/791/original/pizza-pattern-vector.jpg);
+  font-family: 'Slabo 27px', serif;
 }
 
 h3 {
@@ -47,6 +48,9 @@ ul {
   border-color: #e24972;
   text-align: center;
   border-radius: 5px;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .size {
@@ -55,6 +59,9 @@ ul {
   border-width: medium;
   border-color: #e24972;
   border-radius: 5px;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .toppings {
@@ -63,6 +70,9 @@ ul {
   border-width: medium;
   border-color: #e24972;
   border-radius: 5px;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .princess {
