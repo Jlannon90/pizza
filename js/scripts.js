@@ -21,9 +21,9 @@ Pizza.prototype.cost = function() {
     pizzaCost += 3;
   }
 
-  if (this.pizzaToppings === "meat") {
+  if ((this.pizzaToppings === "pepperoni") || (this.pizzaToppings === "chicken") || (this.pizzaToppings === "sardines") || (this.pizzaToppings === "sausage")) {
     pizzaCost += 2;
-  } else if (this.pizzaToppings === "veggie") {
+  } else if ((this.pizzaToppings === "mushroom") || (this.pizzaToppings === "bell pepper") || (this.pizzaToppings === "jalapeno") || (this.pizzaToppings === "onion") || (this.pizzaToppings === "olives")) {
     pizzaCost += 1;
   }
   return pizzaCost;
@@ -35,10 +35,10 @@ $(function() {
   $("form#make-pizza").submit(function(event) {
     event.preventDefault();
       var sizeSelection = $("input:radio[name=size]:checked").val();
-      var toppingSelection = $("input:radio[name=topping]:checked").val();
+      var toppingSelection = $("input:checkbox[name=topping]:checked").val();
 
       var newPizza = new Pizza(sizeSelection, toppingSelection);
 
-      $("ul#pizza").append("<li><h2>Your order:</h2></br>" + newPizza.typeOfPizza() + " Total cost: $" + newPizza.cost() + "</li>");
+      $("ul#pizza").append("<li><h3>Your order:</h3></br>" + newPizza.typeOfPizza() + " Total cost: $" + newPizza.cost() + "</li>");
   });
 });
