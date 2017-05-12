@@ -26,6 +26,7 @@ h1 {
   border-style: solid;
   border-width: medium;
   border-color: #e24972;
+  border-radius: 5px;
 }
 
 .btn {
@@ -65,6 +66,17 @@ ul {
   margin-right: 5%;
 }
 
+.delivery {
+  background-color: white;
+  border-style: solid;
+  border-width: medium;
+  border-color: #e24972;
+  border-radius: 5px;
+  margin-left: 13%;
+  margin-right: 5%;
+  margin-top: -14%;
+}
+
 .toppings {
   background-color: white;
   border-style: solid;
@@ -84,6 +96,20 @@ ul {
 .peach {
   max-width: 200px;
   max-height: auto;
+}
+
+.motorcycle {
+  max-width: 250px;
+  max-height: auto;
+  padding-bottom: 3%;
+}
+
+.center-image {
+  text-align: center;
+}
+
+.bump-down {
+  padding-top: 13%;
 }
 
 input:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progress !important;}
