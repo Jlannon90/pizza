@@ -21,8 +21,11 @@ Pizza.prototype.cost = function() {
   }
 
   if (this.pizzaToppings === "meat") {
-    pizza Cost += 2;
+    pizzaCost += 2;
+  } else if (this.pizzaToppings === "veggie") {
+    pizzaCost += 1;
   }
+  return PizzaCost;
 }
 
 
