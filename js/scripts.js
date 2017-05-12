@@ -26,7 +26,7 @@ Pizza.prototype.cost = function() {
   this.pizzaToppings.forEach(function(topping) {
     if ((topping === " pepperoni") || (topping === " chicken") || (topping === " sardines") || (topping === " sausage")) {
       pizzaCost += 2;
-    } else if ((topping === " mushroom") || (topping === " bell pepper") || (topping === " jalapeno") || (topping === " onion") || (topping === " olives")) {
+    } else if ((topping === " mushroom") || (topping === " bell pepper") || (topping === " jalapeno") || (topping === " onion") || (topping === " peaches")) {
       pizzaCost += 1;
     }
   });
