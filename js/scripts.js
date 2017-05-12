@@ -21,11 +21,13 @@ Pizza.prototype.cost = function() {
     pizzaCost += 3;
   }
 
-  if ((this.pizzaToppings === "pepperoni") || (this.pizzaToppings === "chicken") || (this.pizzaToppings === "sardines") || (this.pizzaToppings === "sausage")) {
-    pizzaCost += 2;
-  } else if ((this.pizzaToppings === "mushroom") || (this.pizzaToppings === "bell pepper") || (this.pizzaToppings === "jalapeno") || (this.pizzaToppings === "onion") || (this.pizzaToppings === "olives")) {
-    pizzaCost += 1;
-  }
+  this.pizzaToppings.forEach(function(topping) {
+    if ((topping === "pepperoni") || (topping === "chicken") || (topping === "sardines") || (topping === "sausage")) {
+      pizzaCost += 2;
+    } else if ((topping === "mushroom") || (topping === "bell pepper") || (topping === "jalapeno") || (topping === "onion") || (topping === "olives")) {
+      pizzaCost += 1;
+    }
+  });
   return pizzaCost;
 }
 
