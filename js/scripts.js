@@ -1,6 +1,5 @@
 // business logic
 
-
 // pizza constructor
 function Pizza (size, toppings) {
   this.pizzaSize = size;
@@ -20,7 +19,7 @@ Pizza.prototype.cost = function() {
   if (this.pizzaSize === "medium") {
     pizzaCost += 2;
   } else if (this.pizzaSize === "large") {
-    pizzaCost += 3;
+    pizzaCost += 4;
   }
 
 // loop that checks array for added topping and adjusts price based on what it finds in array

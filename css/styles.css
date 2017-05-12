@@ -1,0 +1,25 @@
+h3 {
+  text-align: center;
+}
+
+.button-area {
+  background-color: white;
+  border-style: solid;
+  border-width: medium;
+  border-color: red;
+  text-align: center;
+}
+
+.size {
+  background-color: white;
+  border-style: solid;
+  border-width: medium;
+  border-color: red;
+}
+
+.toppings {
+  background-color: white;
+  border-style: solid;
+  border-width: medium;
+  border-color: red;
+}
