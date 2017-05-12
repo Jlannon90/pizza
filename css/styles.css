@@ -5,11 +5,34 @@ body {
 h3 {
   text-align: center;
   color: #e24972;
+  font-weight: bold;
+  font-family: 'Baloo', cursive;
+}
+
+p {
+  font-family: 'Alex Brush', cursive;
+  font-size: 140%;
 }
 
 h1 {
   font-size: 140px;
+  font-weight: bold;
   color: #e24972;
+  text-shadow: 4px 4px #a8465b;
+  font-family: 'Alex Brush', cursive;
+  background-color: white;
+  border-style: solid;
+  border-width: medium;
+  border-color: #e24972;
+}
+
+.btn {
+  margin-top: 5%;
+  background-color: #e24972;
+  color: white;
+  font-family: 'Alex Brush', cursive;
+  font-size: 140%;
+
 }
 
 ul {

@@ -48,6 +48,6 @@ $(function() {
       var newPizza = new Pizza(sizeSelection, toppingSelection);
 
 // displays the new pizza
-      $("ul#pizza").append("<li>" + newPizza.typeOfPizza() + "</br>Total cost: $" + newPizza.cost() + "</li>");
+      $("ul#pizza").append("<li>" + newPizza.typeOfPizza() + "</br><strong>Total cost:</strong> $" + newPizza.cost() + "</li>");
   });
 });
