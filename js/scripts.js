@@ -6,8 +6,10 @@ function Pizza (toppings, size) {
   this.pizzaSize = size;
 }
 
-
-
+// pizza prototype that returns what the customer ordered
+Pizza.prototype.typeOfPizza = function() {
+  return "1x " + this.pizzaSize + " with " + this.pizzaToppings;
+}
 
 
 
