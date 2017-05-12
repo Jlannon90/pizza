@@ -11,7 +11,19 @@ Pizza.prototype.typeOfPizza = function() {
   return "1x " + this.pizzaSize + " with " + this.pizzaToppings;
 }
 
+Pizza.prototype.cost = function() {
+  var pizzaCost = 10;
 
+  if (this.pizzaSize === "medium") {
+    pizzaCost += 2;
+  } else if (this.pizzaSize === "large") {
+    pizzaCost += 3;
+  }
+
+  if (this.pizzaToppings === "meat") {
+    pizza Cost += 2;
+  }
+}
 
 
 
