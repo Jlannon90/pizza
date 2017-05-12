@@ -1,9 +1,9 @@
 // business logic
-
+debugger;
 // pizza constructor
-function Pizza (toppings, size) {
-  this.pizzaToppings = toppings;
+function Pizza (size, toppings) {
   this.pizzaSize = size;
+  this.pizzaToppings = toppings;
 }
 
 // pizza prototype that returns what the customer ordered
@@ -26,7 +26,7 @@ Pizza.prototype.cost = function() {
   } else if (this.pizzaToppings === "veggie") {
     pizzaCost += 1;
   }
-  return PizzaCost;
+  return pizzaCost;
 }
 
 // user interface logic
@@ -39,6 +39,6 @@ $(function() {
 
       var newPizza = new Pizza(sizeSelection, toppingSelection);
 
-      $("ul#pizza").append("<li><h2>Your order:</h2></br>" + newPizza.typeOfPizza() + "Total cost: $" + newPizza.cost() + "</li>");
+      $("ul#pizza").append("<li><h2>Your order:</h2></br>" + newPizza.typeOfPizza() + " Total cost: $" + newPizza.cost() + "</li>");
   });
 });
