@@ -8,7 +8,7 @@ function Pizza (toppings, size) {
 
 // pizza prototype that returns what the customer ordered
 Pizza.prototype.typeOfPizza = function() {
-  return "1x " + this.pizzaSize + " with " + this.pizzaToppings;
+  return "1x " + this.pizzaSize + " pizza </br> with " + this.pizzaToppings;
 }
 
 // pizza prototype that calculates cost
@@ -39,5 +39,6 @@ $(function() {
 
       var newPizza = new Pizza(sizeSelection, toppingSelection);
 
+      $("ul#pizza").append("<li><h2>Your order:</h2></br>" + newPizza.typeOfPizza() + "Total cost: $" + newPizza.cost() + "</li>");
   });
 });
