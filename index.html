@@ -9,10 +9,11 @@
     <title>Pizza</title>
   </head>
   <body>
-    <div class="pageTitle">
-      <h1>Pizza</h1>
-    </div>
-    <h2>Size</h2>
+    <form id="make-pizza" action="index.html" method="post">
+      <div class="pageTitle">
+        <h1>Pizza</h1>
+      </div>
+      <h2>Size</h2>
       <div class="radio">
         <label>
           <input type="radio" name="time" value="small" required>
@@ -31,7 +32,7 @@
           Large
         </label>
       </div>
-    <h2>Toppings</h2>
+      <h2>Toppings</h2>
       <div class="radio">
         <label>
           <input type="radio" name="time" value="meat" required>
@@ -86,6 +87,8 @@
           Olives
         </label>
       </div>
+      <button type="sumbit" name="button" class="btn">Order</button>
+    </form>
 
 
   </body>
