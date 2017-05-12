@@ -53,6 +53,8 @@ ul {
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 7px;
+  float: right;
 }
 
 .size {
@@ -72,9 +74,10 @@ ul {
   border-width: medium;
   border-color: #e24972;
   border-radius: 5px;
-  margin-left: 13%;
+  margin-left: 5%;
   margin-right: 5%;
-  margin-top: -14%;
+  margin-top: -12%;
+  margin-bottom: 3%;
 }
 
 .toppings {
@@ -85,6 +88,17 @@ ul {
   border-radius: 5px;
   margin-top: 5%;
   margin-left: 5%;
+  margin-right: 5%;
+}
+
+.order {
+  background-color: white;
+  border-style: solid;
+  border-width: medium;
+  border-color: #e24972;
+  border-radius: 5px;
+  margin-top: -12%;
+  margin-left: 3%;
   margin-right: 5%;
 }
 
