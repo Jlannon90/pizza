@@ -24,9 +24,9 @@ Pizza.prototype.cost = function() {
 
 // loop that checks array for added topping and adjusts price based on what it finds in array
   this.pizzaToppings.forEach(function(topping) {
-    if ((topping === "pepperoni") || (topping === "chicken") || (topping === "sardines") || (topping === "sausage")) {
+    if ((topping === " pepperoni") || (topping === " chicken") || (topping === " sardines") || (topping === " sausage")) {
       pizzaCost += 2;
-    } else if ((topping === "mushroom") || (topping === "bell pepper") || (topping === "jalapeno") || (topping === "onion") || (topping === "olives")) {
+    } else if ((topping === " mushroom") || (topping === " bell pepper") || (topping === " jalapeno") || (topping === " onion") || (topping === " olives")) {
       pizzaCost += 1;
     }
   });
@@ -48,6 +48,6 @@ $(function() {
       var newPizza = new Pizza(sizeSelection, toppingSelection);
 
 // displays the new pizza
-      $("ul#pizza").append("<li><h3>Your order:</h3></br>" + newPizza.typeOfPizza() + " Total cost: $" + newPizza.cost() + "</li>");
+      $("ul#pizza").append("<li>" + newPizza.typeOfPizza() + "</br>Total cost: $" + newPizza.cost() + "</li>");
   });
 });
