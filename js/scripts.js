@@ -35,10 +35,13 @@ $(function() {
   $("form#make-pizza").submit(function(event) {
     event.preventDefault();
       var sizeSelection = $("input:radio[name=size]:checked").val();
-      var toppingSelection = $("input:checkbox[name=topping]:checked").val();
+      var toppingSelection = $("input:checkbox[name=topping]:checked").map(function() {
+        return this.value;
+      }).get();
 
       var newPizza = new Pizza(sizeSelection, toppingSelection);
 
       $("ul#pizza").append("<li><h3>Your order:</h3></br>" + newPizza.typeOfPizza() + " Total cost: $" + newPizza.cost() + "</li>");
+      console.log(newPizza);
   });
 });
