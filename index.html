@@ -8,7 +8,6 @@
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Peach's Pizza</title>
   </head>
   <body>
@@ -23,7 +22,7 @@
     </div>
     <form id="make-pizza" action="index.html" method="post">
       <div class="row">
-        <div class="col-md-2 col-md-offset-1 size">
+        <div class="col-md-2 col-xs-12 col-md-offset-1 size">
           <h3>Size</h3>
           <div class="radio">
             <label>
@@ -44,9 +43,9 @@
             </label>
           </div>
         </div>
-        <div class="col-md-4 col-md-offset-1 toppings">
+        <div class="col-md-4 col-xs-12 col-md-offset-1 toppings">
           <h3>Toppings</h3>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4">
             <div class="checkbox">
               <label>
                 <input type="checkbox" name="topping" value=" pepperoni">
@@ -66,7 +65,7 @@
               </label>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4">
             <div class="checkbox">
               <label>
                 <input type="checkbox" name="topping" value=" sardines">
@@ -86,7 +85,7 @@
               </label>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4">
             <div class="checkbox">
               <label>
                 <input type="checkbox" name="topping" value=" jalapeno">
@@ -107,15 +106,16 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-md-offset-1 button-area">
+        <div class="col-md-2 col-xs-12 col-md-offset-1 checkout">
           <h3>Checkout</h3>
           <p>"Thanks for your business"</br>-Peach</p>
           <img class="princess" src="img/princess.png" alt="Princess Peach">
+          </br>
           <button type="submit" name="button" class="btn">Order</button>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-5 delivery">
+        <div class="col-md-5 col-xs-12 col-md-offset-1 delivery">
           <h3>Delivery</h3>
           <div class="col-md-6 center-image">
             <img class="motorcycle" src="img/delivery.png" alt="Princess Peach on her motorcycle">
@@ -124,7 +124,7 @@
             <p class="toad">"Fastest drivers in the Mushroom Kingdom, most of the time. One time a driver was an hour late... something about a blue shell? Still a great deal!"  -Toad</p>
           </div>
         </div>
-        <div class="col-md-2 order">
+        <div class="col-md-2 col-xs-12 col-md-offset-1 order">
           <h3>Your Order:</h3>
           <div id="customer-pizza">
             <ul id="pizza">

@@ -58,7 +58,7 @@ ul {
   text-align: left;
 }
 
-.button-area {
+.checkout {
   background-color: #f9e2c3;
   border-style: solid;
   border-width: medium;
@@ -169,19 +169,6 @@ a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progres
     text-align: center;
   }
 
-  .button-area {
-    background-color: #f9e2c3;
-    border-style: solid;
-    border-width: medium;
-    border-color: #e24972;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 7px;
-  }
-
   .icon-bar a {
     float: none;
   }
@@ -193,6 +180,24 @@ a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progres
   .icon-bar {
     text-align: center;
   }
+
+  .checkout {
+    background-color: #f9e2c3;
+    border-style: solid;
+    border-width: medium;
+    border-color: #e24972;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: -2%;
+    padding-bottom: 7px;
+  }
+
+  .btn{
+    text-align: center;
+  }
+
   .size {
     background-color: #f9e2c3;
     border-style: solid;
@@ -200,8 +205,8 @@ a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progres
     border-color: #e24972;
     border-radius: 5px;
     margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .delivery {
@@ -210,9 +215,10 @@ a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progres
     border-width: medium;
     border-color: #e24972;
     border-radius: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top: 5%;
+    text-align: center;
   }
 
   .toppings {
@@ -222,8 +228,8 @@ a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progres
     border-color: #e24972;
     border-radius: 5px;
     margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .order {
@@ -233,7 +239,7 @@ a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progres
     border-color: #e24972;
     border-radius: 5px;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-right: 5%;
   }
 
