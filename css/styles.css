@@ -13,7 +13,7 @@ h3 {
 
 p {
   font-family: 'Alex Brush', cursive;
-  font-size: 140%;
+  font-size: 170%;
 }
 
 h1 {
@@ -22,17 +22,20 @@ h1 {
   color: #e24972;
   text-shadow: 4px 4px #a8465b;
   font-family: 'Alex Brush', cursive;
-  background-color: white;
+  background-color: #f9e2c3;
   border-style: solid;
   border-width: medium;
   border-color: #e24972;
   border-radius: 5px;
+  margin-top: -3px;
+  margin-left: -3px;
+  margin-right: -3px;
 }
 
 .btn {
   margin-top: 5%;
   background-color: #e24972;
-  color: white;
+  color: #f9e2c3;
   font-family: 'Alex Brush', cursive;
   font-size: 140%;
 
@@ -44,7 +47,7 @@ ul {
 }
 
 .button-area {
-  background-color: white;
+  background-color: #f9e2c3;
   border-style: solid;
   border-width: medium;
   border-color: #e24972;
@@ -58,7 +61,7 @@ ul {
 }
 
 .size {
-  background-color: white;
+  background-color: #f9e2c3;
   border-style: solid;
   border-width: medium;
   border-color: #e24972;
@@ -69,7 +72,7 @@ ul {
 }
 
 .delivery {
-  background-color: white;
+  background-color: #f9e2c3;
   border-style: solid;
   border-width: medium;
   border-color: #e24972;
@@ -81,7 +84,7 @@ ul {
 }
 
 .toppings {
-  background-color: white;
+  background-color: #f9e2c3;
   border-style: solid;
   border-width: medium;
   border-color: #e24972;
@@ -92,7 +95,7 @@ ul {
 }
 
 .order {
-  background-color: white;
+  background-color: #f9e2c3;
   border-style: solid;
   border-width: medium;
   border-color: #e24972;
@@ -122,9 +125,18 @@ ul {
   text-align: center;
 }
 
-.bump-down {
+/*moves paragraph from Toad down and to the right*/
+.toad {
   padding-top: 13%;
+  margin-left: 10%;
 }
+
+label{
+  color: #a8465b;
+  font-family: 'Baloo', cursive;
+}
+
+/*for cursor*/
 
 input:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progress !important;}
 
@@ -132,13 +144,14 @@ label:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), pro
 
 button:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progress !important;}
 
+/*media query for mobile*/
 @media screen and (max-width: 780px) {
 
   h1 {
     font-size: 90px;
     font-weight: bold;
     color: #e24972;
-    text-shadow: 4px 4px #a8465b;
+    text-shadow: 2px 2px #a8465b;
     font-family: 'Alex Brush', cursive;
     text-align: center;
     background-color: white;
