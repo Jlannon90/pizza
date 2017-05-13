@@ -18,7 +18,7 @@ _{This application creates a pizza order (pizza object) and calculates it's pric
 * _Identify the size selection a user makes._
   _Example Input: medium Example Output: medium_
 * _Identify the toppings selection(s) a user makes._
-  _Example Input: sausage, olives, bell pepper Example Output: sausage, olives, bell pepper_
+  _Example Input: sausage, jalapeno, bell pepper Example Output: sausage, jalapeno, bell pepper_
 * _Calculate the cost based on those selections and display order & cost to user._
   _Example Input: medium with sausage and bell pepper Example Output: 1x medium pizza with sausage, bell pepper. Total cost: $15_
 
