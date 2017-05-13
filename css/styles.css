@@ -131,3 +131,78 @@ input:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), pro
 label:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progress !important;}
 
 button:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progress !important;}
+
+@media screen and (max-width: 780px) {
+
+  h1 {
+    font-size: 90px;
+    font-weight: bold;
+    color: #e24972;
+    text-shadow: 4px 4px #a8465b;
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: medium;
+    border-color: #e24972;
+    border-radius: 5px;
+  }
+
+  .button-area {
+    background-color: white;
+    border-style: solid;
+    border-width: medium;
+    border-color: #e24972;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 7px;
+  }
+
+  .size {
+    background-color: white;
+    border-style: solid;
+    border-width: medium;
+    border-color: #e24972;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .delivery {
+    background-color: white;
+    border-style: solid;
+    border-width: medium;
+    border-color: #e24972;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+
+  .toppings {
+    background-color: white;
+    border-style: solid;
+    border-width: medium;
+    border-color: #e24972;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .order {
+    background-color: white;
+    border-style: solid;
+    border-width: medium;
+    border-color: #e24972;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
