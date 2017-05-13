@@ -16,12 +16,7 @@ p {
   font-size: 170%;
 }
 
-h1 {
-  font-size: 140px;
-  font-weight: bold;
-  color: #e24972;
-  text-shadow: 4px 4px #a8465b;
-  font-family: 'Alex Brush', cursive;
+.pageTitle {
   background-color: #f9e2c3;
   border-style: solid;
   border-width: medium;
@@ -30,6 +25,23 @@ h1 {
   margin-top: -3px;
   margin-left: -3px;
   margin-right: -3px;
+}
+
+h1 {
+  font-size: 140px;
+  font-weight: bold;
+  color: #e24972;
+  text-shadow: 4px 4px #a8465b;
+  font-family: 'Alex Brush', cursive;
+
+}
+
+.icon-bar a {
+  float: right;
+  width: 50px;
+  color: #e24972;
+  font-size: 2em;
+  text-align: center;
 }
 
 .btn {
@@ -137,12 +149,13 @@ label{
 }
 
 /*for cursor*/
-
 input:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progress !important;}
 
 label:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progress !important;}
 
 button:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progress !important;}
+
+a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), progress !important;}
 
 /*media query for mobile*/
 @media screen and (max-width: 780px) {
@@ -154,15 +167,10 @@ button:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), pr
     text-shadow: 2px 2px #a8465b;
     font-family: 'Alex Brush', cursive;
     text-align: center;
-    background-color: white;
-    border-style: solid;
-    border-width: medium;
-    border-color: #e24972;
-    border-radius: 5px;
   }
 
   .button-area {
-    background-color: white;
+    background-color: #f9e2c3;
     border-style: solid;
     border-width: medium;
     border-color: #e24972;
@@ -174,8 +182,19 @@ button:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), pr
     padding-bottom: 7px;
   }
 
+  .icon-bar a {
+    float: none;
+  }
+
+  a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .icon-bar {
+    text-align: center;
+  }
   .size {
-    background-color: white;
+    background-color: #f9e2c3;
     border-style: solid;
     border-width: medium;
     border-color: #e24972;
@@ -186,7 +205,7 @@ button:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), pr
   }
 
   .delivery {
-    background-color: white;
+    background-color: #f9e2c3;
     border-style: solid;
     border-width: medium;
     border-color: #e24972;
@@ -197,7 +216,7 @@ button:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), pr
   }
 
   .toppings {
-    background-color: white;
+    background-color: #f9e2c3;
     border-style: solid;
     border-width: medium;
     border-color: #e24972;
@@ -208,7 +227,7 @@ button:hover {cursor: url(http://cur.cursors-4u.net/others/oth-3/oth277.cur), pr
   }
 
   .order {
-    background-color: white;
+    background-color: #f9e2c3;
     border-style: solid;
     border-width: medium;
     border-color: #e24972;
